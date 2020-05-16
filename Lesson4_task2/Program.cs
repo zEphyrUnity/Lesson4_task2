@@ -22,9 +22,11 @@ namespace Lesson4_task2
 
         static void Main(string[] args)
         {
+            //Заполняю коллекцию
             for(int i = 0; i < someList.Capacity; i++)
                 someList.Add(Randomizer(rnd));
 
+            //Подсчет вхождений
             for(int i = 0; i < someList.Count; i++)
             {
                 counter = 1;
